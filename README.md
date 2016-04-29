@@ -12,3 +12,10 @@ Demos from the blog post "Configuring tsconfig in Atom and VS Code"
 6. `npm install` - Installs packages
 7. `npm start` - Builds the project and launch a lite web server (webpack-devserver).
 8. Navigate to [http://localhost:8080/](http://localhost:8080/) if your browser doesn't open automatically.
+
+###Samples with errors, fail build
+- [01 Node Modules Error](https://github.com/Lemoncode/MaterialPostTSConfig/tree/master/01%20Node%20Modules%20Error).
+- [02 Typings Error](https://github.com/Lemoncode/MaterialPostTSConfig/tree/master/02%20Typings%20Error).
+
+To fix them, there are instructions in each index.html
+
