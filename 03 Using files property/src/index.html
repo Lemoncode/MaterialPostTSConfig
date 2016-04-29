@@ -7,7 +7,7 @@
   <body>
     <div class="container-fluid">
         <div class="row about-page">
-          <h1 class="jumbotron">02 Typings Error</h1>
+          <h1 class="jumbotron">03 Open with VSCode</h1>
 
           <div class="col-xs-12">
             <h1>
@@ -17,22 +17,15 @@
             </h1>
             <h2>
               <small>
-                But we got an error because we aren't excluding typings folder.
-              </small>
-            </h2>
-            <h2>
-              <small>
-                To fix this build, we have to add "typings/main" and "typings/main.d.ts" rows in exclude section.
+                We are using <code>files</code> property instead of <code>exclude</code>.
               </small>
             </h2>
 
             <div class="col-xs-3" style="margin-top: 30px;">
               <pre>
                 <code>
-                  <span>"exclude": [</span>
-                  <span>   "node_modules",</span>
-                  <span>   "typings/main",</span>
-                  <span>   "typings/main.d.ts"</span>
+                  <span>"files": [</span>
+                  <span>   "./typings/browser.d.ts"</span>
                   <span>],</span>
                 </code>
               </pre>
