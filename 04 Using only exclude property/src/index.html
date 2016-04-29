@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row about-page">
+          <h1 class="jumbotron">04 Using only exclude property</h1>
+
+          <div class="col-xs-12">
+            <h1>
+              <small>
+                In this sample we are going to setup the basic plumbing to "build" our project and launch it in a dev server.
+              </small>
+            </h1>
+            <h2>
+              <small>
+                We are using <code>exclude</code> property instead of <code>files</code> or <code>fileGlob</code>.
+              </small>
+            </h2>
+
+            <div style="margin-top: 30px;">
+              <pre>
+                <code>
+                  <span>"exclude": [</span>
+                  <span>   "node_modules",</span>
+                  <span>   "typings/main",</span>
+                  <span>   "typings/main.d.ts"</span>
+                  <span>],</span>
+                </code>
+              </pre>
+            </div>
+
+            <div class="col-xs-12">
+                <h3>
+                    <small>
+                        We are going to use:
+                    </small>
+                </h3>
+                <ul>
+                    <li><h3><small><a target="_blank" href="https://webpack.github.io/">Webpack</a></small></h3></li>
+                    <li><h3><small><a target="_blank" href="http://www.typescriptlang.org/">Typescript</a></small></h3></li>
+                </ul>
+            </div>
+          </div>
+
+          <div class="col-xs-12 top-buffer" style="margin-bottom: 30px;">
+            <h3>Highlights</h3>
+            <hr/>
+            <h3>
+              <small>
+                The most interesting parts worth to take a look
+              </small>
+            </h3>
+          </div>
+
+          <div class="col-xs-12">
+            <ul>
+                <li class="top-buffer">
+                     <h4>
+                       tsconfing.json: <small>typescript configuration.</small>
+                     </h4>
+                </li>
+                <li class="top-buffer">
+                     <h4>
+                       package.json: <small>check packages installed.</small>
+                     </h4>
+                </li>
+                <li class="top-buffer">
+                     <h4>
+                       webpack.config.js: <small>check the build process and ts-loader to handle typescript.</small>
+                     </h4>
+                </li>
+            </ul>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>
