@@ -1,6 +1,6 @@
 # Configuring tsconfig in Atom and VS Code
 
-Demos from the blog post "Configuring tsconfig in Atom and VS Code"
+Demos from the blog post "Configuring tsconfig in Atom and VS Code", Spanish version available on this [link](http://www.formacion.lemoncode.net/lemoncode-blog/2016/5/3/configurando-tsconfig-en-atom-y-vs-code), english version soon.
 
 ##To get started:
 
